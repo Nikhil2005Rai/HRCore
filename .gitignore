@@ -1,0 +1,84 @@
+# =========================================================================
+# Build Tools (Maven & Gradle)
+# =========================================================================
+# Maven target directory containing compiled classes and build artifacts
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.warTransformation
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle build directory and cache files
+build/
+.gradle/
+/gradle-app.setting
+!gradle-wrapper.jar
+
+# =========================================================================
+# IDEs and Editors
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+.settings/
+.project
+.classpath
+*.launch
+.factorypath
+.springBeans
+
+# Visual Studio Code
+.vscode/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+nbproject/logging.properties
+
+# =========================================================================
+# Environment & Sensitive Information
+# =========================================================================
+# Configuration files containing credentials, API keys, or local secrets
+.env
+.env.local
+.env.*.local
+
+# Optional: Ignore specific local application properties if they hold secrets
+# application-local.properties
+# application-dev.properties
+
+# =========================================================================
+# Logs and Diagnostics
+# =========================================================================
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# =========================================================================
+# Operating System files
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
